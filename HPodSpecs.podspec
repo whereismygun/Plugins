@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # 项目名称(.podspec一致)
   s.name         = "HPodSpecs"
   # 版本号
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   # 简介
   s.summary      = "test HPodSpecs"
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   
   # 许可证
   #s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
    s.license  = {:type => "MIT", :file => "LICENSE"}
 
   # 作者
@@ -33,10 +33,9 @@ Pod::Spec.new do |s|
 
    
   #项目地址 
- # s.source       = { :git => "http://EXAMPLE/HPodSpecs.git", :tag => "#{s.version}" }
+ #s.source       = { :git => "http://EXAMPLE/HPodSpecs.git", :tag => "#{s.version}" }
   s.source       = { :git => "https://github.com/whereismygun/Plugins.git", :tag => "#{s.version}" }
- #s.source       = { :git => "https://github.com/whereismygun/Plugins.git", :tag => "#{s.version}" }
- # s.source       = { :git => "https://github.com/whereismygun/Plugins.git", :tag => "#{s.version}" }
+
 
 
   # 需要包含的源文件
@@ -49,8 +48,6 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
